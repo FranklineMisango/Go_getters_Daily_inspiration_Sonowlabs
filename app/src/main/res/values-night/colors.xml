@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#111422</color>
+    <color name="colorPrimaryDark">#111422</color>
+    <color name="colorAccent">#5E35B1</color>
+    <color name="colorAccentTwo">#9C27B0</color>
+
+    <color name="background_pressed">#ECECEC</color>
+    <color name="lightBlack">#ff333333</color>
+    <color name="grey">#636363</color>
+    <color name="textColor">#ffffff</color>
+    <color name="blacktext">#ffffff</color>
+    <color name="background">#E4E4E4</color>
+    <color name="button_color">#ffffff</color>
+
+    <color name="white">#000000</color>
+    <color name="black">#ffffff</color>
+    <color name="card_bg">#000000</color>
+
+    <color name="dot1">#F4511E</color>
+    <color name="dot2">#D1022F</color>
+    <color name="dot3">#6700FF</color>
+
+    <color name="back">#FFFFFF</color>
+    <color name="colorBackgroundLight">#FFFFFF</color>
+    <color name="colorBackgroundDark">#101D24</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!--do not change this-->
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="gnt_ad_yellow">#FBB828</color>
+    <color name="gnt_gray">#808080</color>
+
+    <color name="colorBack1">#111422</color>
+    <color name="colorBack2">#21253A</color>
+
+</resources>

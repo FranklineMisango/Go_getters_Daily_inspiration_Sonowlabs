@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00ffff00"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        android:orientation="vertical"
+        app:cardElevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/love_it"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Give 5 Star Review"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+
+            <TextView android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#4a4a4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Please take a moment to rate us. It will take less than 30 seconds. And it also motivate us to upload more awesome wallpapers."
+                android:lines="4"
+                android:minLines="3"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/btnLater"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Later"
+                    android:background="@drawable/bg_button_background"
+                    android:backgroundTint="#2F3345"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/btnMore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Never"
+                    android:background="@drawable/bg_button_background"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#2F3345"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/btnRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rate us"
+                    android:background="@drawable/bg_button_background"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

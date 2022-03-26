@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_liked_quotes"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/ic_menu_like"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlesans_bold"
+            android:text="Favorites"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_todays_quote"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:padding="1dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/ic_menu_quote"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quote of the Day"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_quote_maker"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:padding="1dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/ic_menu_quotemaker"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quotes Maker"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_setting"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:padding="1dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/ic_menu_setting"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settting"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contact_us"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_love_letter_black_24dp"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Contact Us"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_about"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_file_black_24dp"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" About the App"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_privacy_policy"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_flag"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy policy"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_rate_app"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_star"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate 5 Star"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_share_app"
+        style="@style/DrawerItemStyle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_share"
+            app:tint="@color/textColor"
+            tools:ignore="VectorDrawableCompat" />
+
+        <RelativeLayout
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share App"
+            android:fontFamily="@font/googlesans_bold" />
+    </LinearLayout>
+</LinearLayout>

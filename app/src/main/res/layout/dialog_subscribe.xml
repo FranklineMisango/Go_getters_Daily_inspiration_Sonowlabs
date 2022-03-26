@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout_close_rate_gialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:padding="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/ic_menu_prime" />
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="50dp"
+                        android:textAllCaps="true"
+                        android:text="Premium Offer" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="#3E3E3E"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearLayout">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:padding="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_subsribte" />
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:tint="@color/textColor"
+                    app:srcCompat="@drawable/ic_menu_prime" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Watermark" />
+
+                    <TextView
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No watermark on saved and shared quotes" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:tint="@color/textColor"
+                    app:srcCompat="@drawable/ic_block" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Ads , Large app Screen" />
+
+                    <TextView
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Get all the Premium Features without Ads" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_content">
+
+            <RelativeLayout
+                android:background="@drawable/gradient_dialog_btn_go"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/text_view_go_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SUBSCRIBE NOW"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

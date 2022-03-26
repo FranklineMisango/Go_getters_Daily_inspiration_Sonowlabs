@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BestStatusAndQuotesAppsByYMGDevelopers"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="fontFamily">@font/bold</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorAccent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.BestStatusAndQuotesAppsByYMGDevelopers.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    //for About Dialog
+    <style name="DialogCustomTheme" parent="android:Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Theme.BestStatusAndQuotesAppsByYMGDevelopers.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BestStatusAndQuotesAppsByYMGDevelopers.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerItemStyle">
+        <item name="android:gravity">start|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingLeft">38dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingRight">38dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
