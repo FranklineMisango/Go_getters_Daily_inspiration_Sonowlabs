@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.ymg.beststatusandquotes.ui.home.HomeFragment"
+        android:name="com.sonowlabs.GogettersDailyInspiration.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.ymg.beststatusandquotes.ui.gallery.GalleryFragment"
+        android:name="com.sonowlabs.GogettersDailyInspiration.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.ymg.beststatusandquotes.ui.slideshow.SlideshowFragment"
+        android:name="com.sonowlabs.GogettersDailyInspiration.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

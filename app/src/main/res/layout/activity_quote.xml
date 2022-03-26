@@ -86,7 +86,7 @@
 
                 </LinearLayout>
 
-                <com.ymg.beststatusandquotes.Utils.SquareRelativeLayout
+                <com.sonowlabs.GogettersDailyInspiration.Utils.SquareRelativeLayout
                     android:id="@+id/layout_quotes_parent_view2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -158,7 +158,7 @@
 
                     </LinearLayout>
 
-                </com.ymg.beststatusandquotes.Utils.SquareRelativeLayout>
+                </com.sonowlabs.GogettersDailyInspiration.Utils.SquareRelativeLayout>
 
 
                 <View

@@ -6,5 +6,5 @@ dependencyResolutionManagement {
         maven { url "https://jitpack.io" }
     }
 }
-rootProject.name = "Best Status and Quotes Apps by YMG Developers"
+rootProject.name = "Sonowlabs Go getters Daily motivation"
 include ':app'
